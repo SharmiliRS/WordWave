@@ -1,0 +1,23 @@
+<%- include ("partials/header.ejs") %>
+<br><br><br><br><br>
+<body>
+    <div class="b-div">
+        <div class="b-form-container">
+            <h2 class="b-h1">Create Your Blog</h2>
+            <form class="b-form">
+                <label for="title" class="b-lab">Title</label>
+                <textarea class="b-t" id="title" name="title" rows="2" placeholder="Enter title here..."></textarea>
+
+                <label class="b-lab" for="comments">Comments</label>
+                <textarea class="b-t" id="comments" name="comments" rows="4" placeholder="Enter your comments here..."></textarea>
+
+                <button type="submit" class="b-but" >Submit</button><br>
+                <button class="b-view" onclick="window.location.href = '/blog';">View other Blogs</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+    
+<br><br><br>
+<%-include("partials/footer.ejs")  %>

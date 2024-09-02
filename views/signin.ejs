@@ -1,0 +1,21 @@
+<%- include("partials/header.ejs") %>
+<br><br><br><br><br><br>
+<body class="s-bg">
+<div class="div-s">
+    <div class="s-form"> 
+        <form id="loginForm">
+            <h1>Sign In</h1>
+            <p class="p-form p1">Email</p>
+            <input class="s-input" type="email" id="email" placeholder="Email" required>
+            <br><br>
+            <p class="p-form">Password</p>
+            <input class="s-input" type="password" id="password" placeholder="Password" required>
+            <br><br>
+            <button class="si-btn" type="submit">Sign In</button>
+            <p class="acc">Don't have an account? <a href="/signup">Sign Up</a></p>
+        </form>
+    </div>
+</div>
+<br><br><br><br><br>
+</body>
+<%- include("partials/footer.ejs") %>
